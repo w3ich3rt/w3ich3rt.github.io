@@ -12,11 +12,9 @@
 en: &DEFAULT_EN
   nav:
     - title: "Home"
-      section: home
+      section: page-top
     - title: "Services"
       section: services
-    - title: "About"
-      section: about
     - title: "Contact"
       section: contact
 en-US:
