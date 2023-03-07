@@ -1,5 +1,5 @@
 ---
-title: Project Name
+title: ISO 27001 Vorbereitung
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/02-full.jpg
 alt: Keep Exploring

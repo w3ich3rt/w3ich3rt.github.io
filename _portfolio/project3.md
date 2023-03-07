@@ -1,5 +1,5 @@
 ---
-title: Project Name
+title: Aufbau Systemüberwachung
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/03-full.jpg
 alt: 
