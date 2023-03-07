@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to WeichertIT!
-    text: Please have a look, how we can help you.
+    title: Willkommen bei Weichert.IT!
+    text: Wie können wir Ihnen helfen?
     button: Services
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "We can help you with the following services"
+    text: "Diese und viele andere IT-Services können wir Ihnen anbieten"
     section: services
     list:
       - title: "Monitoring"
@@ -42,7 +42,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Unser Angebot besteht unter anderem aus diesen Tätigkeiten und noch vielen weiteren. Sprechen Sie uns gerne einfach an!"
+    text: "Unser Angebot besteht unter anderem aus den technischen Bereichen und noch vielen weiteren. Sprechen Sie uns gerne einfach an!"
     section: portfolio
     closebutton: "Schließen"
 
@@ -53,26 +53,35 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Der Anfang"
+        year: "1992-2000"
+        desc: "Meine Reise in die Welt der IT begann irgendwann mit 7-9 Jahren... mein erster Computer war ein Amiga 500 Plus, meine erste Console eine Datasette. Später wurde in der Familie ein Windows 95 PC gekauft... und damit war es völlig um mich geschehen."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Schulische IT Ausbildung"
+        year: "2000-2004"
+        desc: "Nachdem ich mich Privat viel mit Computerspielen und Webseitenerstellung beschäftigt habe, wollte ich weiter gehen und machte eine schulische Ausbildung zum staatlich geprüften technischen Assistenten für Informatik."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "Bundeswehr - IT-Unteroffizier"
+        year: "2004-2012"
+        desc: "Die schulische Ausbildung abgeschlossen ging ich für 8 Jahre zur Bundeswehr als IT-Unteroffizier. Dort machte ich auch meine ersten Erfahrungen mit der IT-Sicherheit."
+        image: assets/img/timeline/3.png
+        alt: 
+      - title: "IT-Systemadministrator"
+        year: "2012-2019"
+        desc: "Anschließend arbeitete ich als IT-Systemadministrator im Fachbereich Linux bei einem großen IT-Serviceprovider."
         image: assets/img/timeline/4.jpg
         alt:
+      - title: "IT-Security Spezialist"
+        year: "2019-2021"
+        desc: "Ich führte mehrere ISO27001 Auditvorbereitungen durch und leitete ein Security Operation Center (SOC)" 
+        image: assets/img/timeline/5.jpg
+        alt: 
+      - title: "IT-Sec DevOps und AI Entwickler"
+        year: "2021-heute"
+        desc: "Aktuell beschäftige ich mich mit Automation, künstlicher Intelligenz und wie man das alles zur Absicherung der IT-Landschaft nutzen kann, um die IT-Sicherheit weiter zu steigern." 
+        image: assets/img/timeline/6.jpg
         # you can enforce the alignment
         align: right
     end: "Und die Reise ist noch nicht zuende!"
@@ -80,7 +89,7 @@ en: &DEFAULT_EN
   about:
     title: "About me"
     text: "Beruflicher Werdegang"
-    body: "Meinen beruflicher Werdegang 2001 startete ich also meine berufliche Karriere mit dem Staatlich geprüften technischen Assistenten für Informatik. Nach dieser Ausbildung ging ich für knapp 7 Jahre zur Bundeswehr und durfte dort als Ausbilder für Rekruten und zukünftige Soldaten dienen, sowie die Client- und Serveradministration für die Kompanie und später das Bataillon übernehmen. Es wart eine schöne Zeit und ich habe viel in der Zeit bei der Bundeswehr gelernt. Nicht zwingend fachlich, aber das muss es ja auch nicht. Nachdem ich Ende 2011 mit der Bundeswehr fertig war, habe ich meine Ausbildung weiter vertieft und eine Umschulung zum Fachinformatiker für Systemintegration begonnen. Diese Umschulung habe ich in einem mittelständigen Unternehmen absolviert und Anfang 2014 nach 2 1/2 beendet. In dieser Zeit habe ich mich überwiegend mit Linux beschäftigt und meinen vorherigen Schwerpunkt auf Linux verschoben. Im Juli 2016 habe ich in einem neuen Unternehmen angefangen und bin dort im Schwerpunkt Operations Administrator mit Schwerpunkt Linux. Nebenbei kümmere ich mich unterstützend um den Bereich Netzwerk, Oracle RAC, Security und Monitoring."
+    body: "Meinen beruflicher Werdegang startete ich 2000 mit der Ausbildung zum "Staatlich geprüften technischen Assistenten für Informatik". Nach dieser Ausbildung ging ich für knapp 8 Jahre zur Bundeswehr und durfte dort als Ausbilder für Rekruten und zukünftige Soldaten dienen, sowie die Client- und Serveradministration für die Kompanie und später das Bataillon übernehmen. Es war eine schöne Zeit und ich habe viel bei der Bundeswehr gelernt. Nicht zwingend fachlich, aber das muss ja auch nicht immer sein. Nachdem ich Ende 2012 mit der Bundeswehr fertig war, habe ich meine Ausbildung weiter vertieft und eine Umschulung zum Fachinformatiker für Systemintegration begonnen. Diese Umschulung habe ich in einem mittelständigen Unternehmen absolviert und Anfang 2014 nach 2 1/2 Jahren beendet. In dieser Zeit habe ich mich überwiegend mit Linux beschäftigt und meinen Schwerpunkt auf Linux verschoben. Im Juli 2016 habe ich in einem neuen Unternehmen angefangen und dort als Operations Administrator mit Schwerpunkt Linux gearbeitet. Nebenbei kümmerte ich mich unterstützend um den Bereich Netzwerk, Oracle RAC, Security und Monitoring."
     section: about
 
   clients:
@@ -98,7 +107,7 @@ en: &DEFAULT_EN
   team:
     title: "Ulli Weichert"
     text: "> Wer immer tut, was er schon kann, bleibt immer das, was er schon ist.<br /><br />Henry Ford"
-    subtext: Mein Name ist Ullrich Weichert, und ich bin 1984 in Delmenhorst geboren. Ich habe zwei Geschwister, eine Mutter und… Überraschung … einen Vater. Mein erfolgreichstes Projekt war meine im August 2008 geborene Tochter. In meiner Freizeit, sofern der Beruf die Zeit zulässt, gehe treibe ich Sport, schaue mir gerne Serien oder Filme an, unternehme gerne etwas mit meiner Tochter, zocke oder bastele an irgendetwas. Mit 8 oder 9 Jahren bekamen meine Geschwister und ich unseren ersten PC, einen Amiga Commodore 500 Plus– hightech damit ist aber mein Interesse an der Materie gewachsen und ich habe mich viel mit diesen kleinen Biestern beschäftigt. Der nächste „Office-PC“ sollte dann ein PC mit Windows 95, ich erinnere mich noch daran, wie wir das Erste mal die Startmelodie hörten. Die jüngeren können es nicht mehr wissen, aber durch Windows 95 waren wir Leid und Kummer gewohnt und vorallem, hat man nicht bei jeder Kleinigkeit den PC neu aufgesetzt. Das dauerte schließlich einen ganzen Tag.
+    subtext: Mein Name ist Ullrich Weichert, und ich bin 1984 in Delmenhorst geboren. Ich habe zwei Geschwister. Mein erfolgreichstes Projekt war meine im August 2008 geborene Tochter. In meiner Freizeit, sofern der Beruf die Zeit zulässt, gehe treibe ich Sport, schaue mir gerne Serien oder Filme an, unternehme gerne etwas mit meiner Tochter, zocke oder bastele an irgendetwas. Mit 8 oder 9 Jahren bekamen meine Geschwister und ich unseren ersten PC, einen Amiga Commodore 500 Plus (hightech) damit ist aber mein Interesse an der Materie gewachsen und ich habe mich viel mit diesen kleinen Biestern beschäftigt. Der nächste „Office-PC“ sollte dann ein PC mit Windows 95, ich erinnere mich noch daran, wie wir das Erste mal die Startmelodie hörten. Die jüngeren können es nicht mehr wissen, aber durch Windows 95 waren wir Leid und Kummer gewohnt und vorallem, hat man nicht bei jeder Kleinigkeit den PC neu aufgesetzt. Das dauerte schließlich einen ganzen Tag.
     section: team
     people:
       - name: "Ullrich Weichert"
