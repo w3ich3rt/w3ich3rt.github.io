@@ -15,6 +15,10 @@ en: &DEFAULT_EN
       section: page-top
     - title: "Services"
       section: services
+    - title: "Portfolio"
+      section: portfolio
+    - title: "About me"
+      section: timeline
     - title: "Contact"
       section: contact
 en-US:
