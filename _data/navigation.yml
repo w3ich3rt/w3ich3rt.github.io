@@ -15,8 +15,10 @@ en: &DEFAULT_EN
       section: page-top
     - title: "Services"
       section: services
-    - title: "Contact"
-      section: contact
+    - title: "Portfolio"
+      section: portfolio
+    - title: "About me"
+      section: timeline
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -25,14 +27,3 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
-de: &DEFAULT_DE
-  nav:
-    - title: "Home"
-      section: page-top
-    - title: "Services"
-      section: services
-    - title: "Über mich"
-      section: about
-    - title: "Kontakt"
-      section: contact
